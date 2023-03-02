@@ -4,14 +4,18 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
     <div style="display:flex;flex-direction:column">
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+     <div style="margin-bottom:5px">
+       <label for="email"><b>Email</b></label>
+       <input type="text" placeholder="Enter Email" name="email" id="email" required>
+     </div>
+    <div style="margin-bottom:5px">
+	 <label for="psw"><b>Password</b></label>
+	 <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    </div>
+    <div style="margin-bottom:5px">
+	    <label for="psw-repeat"><b>Repeat Password</b></label>
+	    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    </div>
     <hr>
     </div>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
